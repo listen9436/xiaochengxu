@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#00BBFF",
+     "borderStyle": "black",
+    "backgroundColor": "#2B2B2B",
+    "list": [{
+      "pagePath": "pages/movie/movie",
+       "iconPath": "assets/img/dy-1.png",
+      "selectedIconPath": "assets/img/dy.png",
+      "text": "影院热映"
+    }, {
+      "pagePath": "pages/recommend/recommend",
+       "iconPath": "assets/img/tj-1.png",
+      "selectedIconPath": "assets/img/tj.png",
+      "text": "电影推荐"
+    }, {
+      "pagePath": "pages/search/search",
+       "iconPath": "assets/img/search-1.png",
+      "selectedIconPath": "assets/img/search.png",
+      "text": "查询电影"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2B2B2B",
+    "navigationBarTitleText": "强爵电影APP",
+    "navigationBarTextStyle":"white"
+  }
+}
